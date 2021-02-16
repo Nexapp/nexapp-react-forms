@@ -1,6 +1,6 @@
 {
   "name": "@nexapp/nexapp-react-forms",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Form utilities in react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +24,7 @@
     "@testing-library/react-hooks": "^5.0.3",
     "@types/jest": "^26.0.20",
     "@types/lodash.isfinite": "^3.3.6",
+    "@types/lodash.isequal": "^4.5.5",
     "@types/react": "17.0.0",
     "jest": "^26.6.3",
     "react": "16.9.x",
@@ -37,7 +38,6 @@
   },
   "homepage": "https://github.com/Nexapp/nexapp-react-forms#readme",
   "dependencies": {
-    "@types/lodash.isequal": "^4.5.5",
     "lodash.isequal": "^4.5.0",
     "lodash.isfinite": "^3.3.2"
   }
