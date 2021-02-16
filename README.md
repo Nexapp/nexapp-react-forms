@@ -54,7 +54,7 @@ const submit = (): void => {
     const validator = new CreateAccountFormValidator(account);
     validator.validate();
     if (validator.hasError()) {
-        setErrors(validator.getMessages());
+        setErrors(validator.errors);
     }
 };
 ```
