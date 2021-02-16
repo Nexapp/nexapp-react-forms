@@ -1,4 +1,11 @@
-export * as FormValidator from "./FormValidator";
-export * as InvalidFieldError from "./InvalidFieldError";
-export * as ValidationRules from "./ValidationRules";
-export * as FormValidations from "./FormValidations";
+import FormValidator from "./FormValidator";
+import ValidationRules from "./ValidationRules";
+import InvalidFieldError from "./InvalidFieldError";
+import * as FormValidations from "./FormValidations";
+
+export {
+  FormValidator,
+  ValidationRules,
+  InvalidFieldError,
+  FormValidations
+}

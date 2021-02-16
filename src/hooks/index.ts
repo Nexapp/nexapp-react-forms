@@ -1,1 +1,5 @@
-export * as useFormData from "./useFormData";
+import useFormData from "./useFormData";
+
+export {
+  useFormData
+}
