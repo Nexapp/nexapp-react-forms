@@ -1,6 +1,6 @@
 {
   "name": "@nexapp/nexapp-react-forms",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Form utilities in react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
