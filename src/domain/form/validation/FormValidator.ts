@@ -1,5 +1,5 @@
-import InvalidFieldError from "./InvalidFieldError";
-import ValidatorRules from "./ValidationRules";
+import type InvalidFieldError from "./InvalidFieldError";
+import type ValidatorRules from "./ValidationRules";
 
 abstract class FormValidator<Fields> {
   protected formData: Fields;

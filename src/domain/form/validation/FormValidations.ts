@@ -1,6 +1,6 @@
 import isFinite from "lodash.isfinite";
 import { emailRegex, passwordRegex } from "./inputRegex";
-import InvalidFieldError from "./InvalidFieldError";
+import type InvalidFieldError from "./InvalidFieldError";
 
 export const isEmpty = (field: string, value: unknown): InvalidFieldError<any> | undefined => {
   if (typeof value !== "string") {

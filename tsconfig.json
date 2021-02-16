@@ -9,7 +9,6 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "baseUrl": "src",
-    "jsx": "react",
     "declaration": true,
     "outDir": "./dist",
     "strict": true,
